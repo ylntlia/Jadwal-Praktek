@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="381dp"
+        android:layout_height="275dp"
+        android:src="@drawable/anak" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:text="Jadwal Praktek Dokter Anak"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:text="RS An-Nisa"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#009688"
+        android:fontFamily="serif"
+        android:text="dr. Yulianti, Sp.A"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#009688"
+        android:fontFamily="serif"
+        android:text="dr. Randy Putra Afani, Sp.A"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+</LinearLayout>
